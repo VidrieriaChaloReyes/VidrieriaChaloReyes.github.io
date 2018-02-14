@@ -12,6 +12,9 @@ img {
 .espacio-arriba{
 margin-top: 100px;
 }
+.espacio-arriba-muro-cortina{
+margin-top: 50px;
+}
 .pacifico{
 	font-family: 'pacifico',cursive;
 }
@@ -107,11 +110,6 @@ a,.azul{
   background: #304269;
 	color:#FFFFFF;
 }
-
-
-
-
-
 .colorBlue{
 	background: #F4F5F6;
 	color:#262F36;
@@ -120,9 +118,11 @@ a,.azul{
 	background: #262F36;
 	color:#FCFFF5;
 }
-
-
 .colorServicioBackground{
   background : #fff;
 
+}
+.colorFooter{
+   background : #5C654C;
+   color: #fff;
 }
