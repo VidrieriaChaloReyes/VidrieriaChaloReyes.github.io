@@ -22,7 +22,7 @@ margin-top: 50px;
 	font-size: 4em;
 }
 .verde{
-	color:#inherit;
+	color:#42141d; 
 }
 .rojo{
     color:#ff0000
@@ -125,4 +125,8 @@ a,.azul{
 .colorFooter{
    background : #5C654C;
    color: #fff;
+}
+.imagen_logo{
+	width:180px;
+	 height:180px;
 }
