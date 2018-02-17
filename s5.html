@@ -1,61 +1,213 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-		<meta charset="utf-8">
-		<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-    <link rel="stylesheet"  href="https://code.jquery.com/jquery-3.2.1.js">
-		<link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/main.css">
-		<title> El servicio 5  </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=divice-width , initial-scale=1.0" >
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+        <link rel="stylesheet"  href="css/animate.css">
+        <link rel="stylesheet"  href="css/main.css" >
+        <link rel="stylesheet"  href="css/carousel.css" >
+        <link rel="stylesheet"  href="css/album.css" >
+        <link rel="stylesheet"  href="css/footer.css" >
+        <link rel="stylesheet"  href="css/footer_index.css" >
+
+        <title> VCR - Balcon </title>
 </head>
+
 <body>
-	<nav class="se-gris padding-largo" >
-			<ul class="noa row text-center" >
-					<li class="col-md-1 inline-block pacifico "> <a  class = "verde mediano" href="index.html" > Inicio </a>   </li>
-			</ul>
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+                <h5 class="my-0 mr-md-auto font-weight-normal">Vidrieria Chalo Reyes</h5>
+                <nav class="my-2 my-md-0 mr-md-3">
+                  <a class="p-2 text-dark" href="index.html">Inicio</a>
+                  <a class="p-2 text-dark" href="#">Producto</a>
+                  <a class="p-2 text-dark" href="#">Contacto</a>
+                </nav>
 
-	</nav>
-	<section>
-			<div class="text-center mediano">
-			<h1 class = "pacifico grande azul"> Servicio 5 </h1>
-			<p> Todos los servicios pueden estar disponible 	</p>
-				<div class="col-md-3 col-sm-4 inline-block">
-						<article>
-										<h2 class="pacifico"  > Modelo 1  </h2>
-										<img  src="imagenes/99.png"    class=" col-xs-3 col-md-4 quitar-float     "  >
-										<p><strong> Anterior foto</strong></p>
-						</article>
-						<article>
-										<h2 class="pacifico"  >  Modelo 2 </h2>
-										<img  src="imagenes/99.png"    class=" col-xs-3 col-md-4 quitar-float"  >
-										<p><strong> Anterior foto</strong></p>
-					  </article>
-			  </div>
+        </div>
+  <main>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-			  <div class="col-md-3 col-sm-4 inline-block vete-arriba">
-					<article>
-									<h2 class="pacifico"  >  Modelo 3 </h2>
-									<img  src="imagenes/99.png"    class="col-xs-3 col-md-6 quitar-float "  >
-									<p><strong> Anterior foto </strong></p>
-					</article>
-			  </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="first-slide" src="imagenes/gris.jpg" alt="First slide">
+                <div class="container">
+                  <div class="carousel-caption text-left">
+                    <h1>Parapeto y Balcones</h1>
+                    <p>Cristal y Aluminio</p>
 
-	      <div class="col-md-3 col-sm-4 inline-block">
-	        <article>
-									<h2 class="pacifico"  >  Modelo 4 </h2>
-									<img  src="imagenes/99.png"    class="col-xs-3 col-md-4 quitar-float"  >
-									<p><strong> Anterior foto</strong></p>
-					</article>
-	        <article>
-									<h2 class="pacifico"  >  Modelo 5 </h2>
-									<img  src="imagenes/99.png"    class=" col-xs-3 col-md-4 quitar-float"  >
-									<p><strong> Anterior foto</strong></p>
-					</article>
-				 </div>
-		   </div>
-	</section>
+                  </div>
+                </div>
+              </div>
+    </div>
+     <!--     Galeria de fotos                 -->
+    <main role="main">
+
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row">
+                        <!-- 1 -->
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="imagenes/gris.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text"></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+
+                                        <small class="text-muted"></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="imagenes/gris.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text"></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+
+                                        <small class="text-muted"></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="imagenes/gris.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text"></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+
+                                        <small class="text-muted"></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 4 -->
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="imagenes/gris.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text"> </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+
+                                        <small class="text-muted"></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 5 -->
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="imagenes/gris.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text"></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <small class="text-muted"></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 6 -->
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="imagenes/gris.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text"></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <small class="text-muted"></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- 7 -->
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="imagenes/gris.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text"></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+
+                                        <small class="text-muted"></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- 8 -->
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="imagenes/gris.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text"></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+
+                                        <small class="text-muted"></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- 9 -->
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="imagenes/gris.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text"> </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+
+                                        <small class="text-muted"></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+      </main>
+  </main>
+  <footer>
+          <div class="footer-section">
+              <div class="container">
+                  <div class="row">
+                        <div class="col-md-4 footer-blanco footer-column">
+                            <h2 class="footer-blanco">Contactos </h2>
+                                <p><i class="fas fa-phone" aria-hidden="true"></i> (01) 605-1496</p>
+                                <p><i class="fas fa-mobile-alt" aria-hidden="true"></i> 996-537-435 / 9975-687-010 </p>
+                                <p><i class="far fa-envelope" aria-hidden="true"></i> vidrieria.chalo.reyes@gmail.com</a></p>
+                        </div>
+
+                        <div class="col-md-4 footer-blanco footer-column">
+                            <h2 class="footer-blanco">Horarios</h2>
+                            <p><i class="far fa-calendar-alt"></i> Lunes a Sábados </p>
+                            <p><i class="far fa-clock"></i> 8:00 am a 8:00 pm</p>
+                        </div>
+                        <div class="col-md-4 footer-blanco footer-column">
+                            <h2 class="">Redes Sociales</h2>
+                            <p>Facebook</p>
+                            <p>Twitter</p>
+                            <p>Instagram</p>
+                        </div>
+                    </div>
+              </div>
+          </div>
+
+       </footer>
+       <div class=" " style="text-align:center; margin:10px auto;">
+              <p> Lima , Perú </p>
+              <p >&copy;2018&middot; </p></a>
+      </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
