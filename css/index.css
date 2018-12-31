@@ -1,3 +1,15 @@
 .title-logo{
     font-family: 'Playfair Display', serif;
 }
+.title-Address{
+    font-family: 'Arapey', serif;
+    font-size: 30px;
+}
+
+.bg-while-line{
+    background: #ffffff;
+    border-top: 2px solid #c8ced4!important;
+}
+.text-while{
+    color: #c8ced4!important;  
+}
