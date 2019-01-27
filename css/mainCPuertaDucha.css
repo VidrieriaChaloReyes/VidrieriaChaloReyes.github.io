@@ -1,0 +1,15 @@
+body{
+font-family: 'Lato', sans-serif;
+}
+
+
+.rojo{
+    color:#ff0000;
+}
+.azul{
+    color:#0033ff;
+}
+a,.azul{
+
+	color: #0089ff;
+}
