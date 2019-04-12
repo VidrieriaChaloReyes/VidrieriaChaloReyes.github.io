@@ -10,9 +10,12 @@ $form_msj = $_POST["form_msj"];
 
 $para      = 'juancarlos@vidrieriachaloreyes.com';
 $titulo    = 'Correo de Pagina Web';
-$mensaje   = 'Nombre : '.$form_name  ."\n";
+$mensaje   = 'Nombre : '.$form_name  ."\n".
+             'Correo : '.$form_email."\n".   
+             'Telefono : '.$form_tel."\n". 
+             'Mensaje : '.$form_msj."\n" ;
 $cabeceras = 'From: webmaster@vidrieriachaloreyes.com' . "\r\n" .
-    'Reply-To: webmaster@example.com' . "\r\n" .
+    'Reply-To: webmaster@vidrieriachaloreyes.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 mail($para, $titulo, $mensaje, $cabeceras);
