@@ -87,6 +87,49 @@
             </div>
             </section>
 
+
+        <section>
+                <div class="py-5" id="forms-02" style="background: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3)), url('imagenes/contactoCorreo.jpg') center center; background-size: cover;">
+                    <div class="container d-flex flex-column py-5" style="min-height: 105vh;">
+                        <div class="row my-auto">
+                            <div class="col-lg-5 col-md-12 col-sm-12 my-auto">
+                                <div class="card border-0">
+                                   
+                                    <div class="card-block pt-4 px-5 pb-1">
+                                            <form action="enviar.php" method="POST">
+                                                    <div class="form-group">
+                                                      <label for="exampleFormControlInput1" >Nombre o Empresa</label>
+                                                      <input type="text"  name="form_name" class="form-control" id="exampleFormControlInput1" placeholder="escriba su nombre" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                            <label for="exampleFormControlInput1">Correo electronico</label>
+                                                            <input type="email" name="form_email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@correo.com" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                                <label for="exampleFormControlInput1">Telefono</label>
+                                                                <input type="tel" name="form_tel" class="form-control" id="exampleFormControlInput1" placeholder="999999999" required>
+                                                    </div>                                                 
+                                                   
+                                                    <div class="form-group">
+                                                      <label for="exampleFormControlTextarea1">Escriba su mensaje </label>
+                                                      <textarea class="form-control" name="form_msj" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                    </div>
+
+                                                    <button class="btn btn-lg btn-warning mb-4 w-100 rounded-0"  value="Enviar" id="boton_enviar" type="submit">Enviar</button>  
+                                                  </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-10 col-sm-12 m-auto py-5 my-auto">
+                                <h2 class="display-4 mb-3 text-white">Envianos un mensaje </h2>
+                                <p class="lead mb-4 mr-5 text-white">Realizamos presupuestos sin costo alguno</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
       
            
    
